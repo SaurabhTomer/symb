@@ -1,10 +1,13 @@
 const { getAllOrders, createOrder } = require('../models/orderModel');
 
+//getOrder controller
 function getOrders(req, res) {
   const allOrders = getAllOrders();
   res.json(allOrders);
 }
 
+
+// funtion to add order 
 function addOrder(req, res) {
   const { restaurantName, itemCount, isPaid, deliveryDistance } = req.body;
 
