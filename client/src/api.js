@@ -29,7 +29,7 @@ export const dummyOrders = [
     deliveryDistance: 7,
   },
   {
-    orderId: 2,
+    orderId: 4,
     restaurantName: "Burger King",
     itemCount: 2,
     isPaid: true,
